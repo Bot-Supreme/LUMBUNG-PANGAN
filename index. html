@@ -1,1 +1,112 @@
 
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Selamat Datang di Gang Joker Digital</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(180deg, #4FC3F7 0%, #29B6F6 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 30px 15px;
+  }
+
+  .page {
+    width: 100%;
+    max-width: 480px;
+    text-align: center;
+  }
+
+  .title {
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1.15;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    letter-spacing: 0.5px;
+  }
+
+  .card-link {
+    display: block;
+    text-decoration: none;
+    margin: 0 auto 30px auto;
+    max-width: 320px;
+  }
+
+  .card {
+    background: #fdfdfb;
+    border-radius: 18px;
+    padding: 18px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .card-link:active .card,
+  .card-link:hover .card {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+
+  .badge {
+    display: inline-block;
+    background: #F4A24A;
+    color: #1a2b4a;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    padding: 12px 26px;
+    border-radius: 30px;
+    margin-bottom: 18px;
+  }
+
+  .card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    border-radius: 10px;
+    display: block;
+  }
+
+  footer {
+    color: #ffffff;
+    opacity: 0.85;
+    font-size: 0.85rem;
+    margin-top: 15px;
+  }
+</style>
+</head>
+<body>
+
+  <div class="page">
+    <h1 class="title">Selamat Datang di<br>Gang Joker_Digital</h1>
+
+    <a href="Kas_Gang_joker.html" class="card-link">
+      <div class="card">
+        <span class="badge">KAS GANG JOKER</span>
+        <img src="img/joker.jpg" alt="Kas Gang Joker">
+      </div>
+    </a>
+
+    <a href="Lp_ulti.html" class="card-link">
+      <div class="card">
+        <span class="badge">LUMBUNG PANGAN RT</span>
+        <img src="img/lp.jpg" alt="Lumbung Pangan RT">
+      </div>
+    </a>
+
+    <footer>RT 001 / RW 014</footer>
+  </div>
+
+</body>
+</html>
